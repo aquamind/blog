@@ -1,7 +1,7 @@
 ---
 title: Gatsby ブログ作成
 date: "2021-02-13T13:43:23+09:00"
-description: "Gatsby"
+description: "Gatsby と GitHub Pages でここ作った時のメモです。"
 ---
 
 Gatsby と GitHub Pages でここ作った時のメモです。
@@ -44,13 +44,13 @@ https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-w
 
 GitHub に新しいリポジトリを作って、スターターから作ったサイトをプッシュ。
 
-### ph-pages インストール
+### gh-pages インストール
 
 ```shell
 npm install gh-pages --save-dev
 ```
 
-### ph-pages 設定
+### gh-pages 設定
 
 gatsby-config.js に追記
 
