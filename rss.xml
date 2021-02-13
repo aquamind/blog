@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[手順MEMO]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://aquamind.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Feb 2021 05:39:34 GMT</lastBuildDate><item><title><![CDATA[Gatsby ブログ作成]]></title><description><![CDATA[Gatsby と GitHub Pages でここ作った時のメモです。 前提 Node.js インストール Git インストール GitHub アカウント取得 手順 Gatsby CLI インストール https://www.gatsbyjs.com/docs/tutorial…]]></description><link>https://aquamind.github.io/blog/0002_gatsby-starter/</link><guid isPermaLink="false">https://aquamind.github.io/blog/0002_gatsby-starter/</guid><pubDate>Sat, 13 Feb 2021 04:43:23 GMT</pubDate><content:encoded>&lt;p&gt;Gatsby と GitHub Pages でここ作った時のメモです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[手順MEMO]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://aquamind.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Feb 2021 07:52:50 GMT</lastBuildDate><item><title><![CDATA[Gatsby ブログ作成]]></title><description><![CDATA[Gatsby と GitHub Pages でここ作った時のメモです。 前提 Node.js インストール Git インストール GitHub アカウント取得 手順 Gatsby CLI インストール https://www.gatsbyjs.com/docs/tutorial…]]></description><link>https://aquamind.github.io/blog/0002_gatsby-starter/</link><guid isPermaLink="false">https://aquamind.github.io/blog/0002_gatsby-starter/</guid><pubDate>Sat, 13 Feb 2021 04:43:23 GMT</pubDate><content:encoded>&lt;p&gt;Gatsby と GitHub Pages でここ作った時のメモです。&lt;/p&gt;
 &lt;h1&gt;前提&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Node.js インストール&lt;/li&gt;
@@ -20,9 +20,9 @@
 &lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/&quot;&gt;https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;リポジトリ作成&lt;/h3&gt;
 &lt;p&gt;GitHub に新しいリポジトリを作って、スターターから作ったサイトをプッシュ。&lt;/p&gt;
-&lt;h3&gt;ph-pages インストール&lt;/h3&gt;
+&lt;h3&gt;gh-pages インストール&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;ph-pages 設定&lt;/h3&gt;
+&lt;h3&gt;gh-pages 設定&lt;/h3&gt;
 &lt;p&gt;gatsby-config.js に追記&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js:gatsby-config.js&quot;&gt;&lt;pre class=&quot;language-js:gatsby-config.js&quot;&gt;&lt;code class=&quot;language-js:gatsby-config.js&quot;&gt;module.exports = {
   pathPrefix: &amp;quot;/リポジトリ名&amp;quot;,
